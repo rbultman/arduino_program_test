@@ -15,12 +15,20 @@ Basic Instructions:
 - Install the GrovePi+ software per the instructions on the [GrovePi web site](http://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/)
 - Connect RX and TX to the target board.  Observe voltage differences, i.e. 3v3 vs 5v0.
 - Connect the D2 GPIO from the GrovePi+ to the reset line of the target micro.
+- Connect appropriate supply voltages to the target board.
 - Clone this repo
 
-Run the program:
+Install and run the program:
 ```bash
 cd arduino_program_test
 npm install
 sudo node index.js
 ```
 
+Notes:
+- The file to be uploaded to the target micro is hard-coded in the app.
+
+### Links
+- [stk500](https://www.npmjs.com/package/stk500)
+- [intel-hex](https://www.npmjs.com/package/intel-hex)
+- A [fork](https://github.com/rbultman/GrovePi) of [node-grovepi](https://www.npmjs.com/package/node-grovepi)
