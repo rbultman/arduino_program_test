@@ -1,6 +1,8 @@
 # arduino_program_test
 Test programming an Atmel micro running the Nano bootloader via a node application.
 
+The use case is one where in-system programming of an Arduino or clone via a Raspberry Pi is needed and the Arduino is connected to the Raspberry Pi via the RX/TX lines on the Raspberry Pi instead of via USB.  The Arduino perhaps does some low-level control while the Pi perhaps is used as the user interface or for connectivity.
+
 ### Setup
 
 Required hardware:
