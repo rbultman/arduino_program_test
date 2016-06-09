@@ -1,0 +1,32 @@
+{
+  "name": "arduino_program_test",
+  "version": "1.0.0",
+  "description": "Test programming an Arduino using the stk500 package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "sh clone_git_repos.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbultman/arduino_program_test.git"
+  },
+  "keywords": [
+    "Arduino",
+    "Programming",
+    "stk500"
+  ],
+  "author": "Rob Bultman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbultman/arduino_program_test/issues"
+  },
+  "homepage": "https://github.com/rbultman/arduino_program_test#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "intel-hex": "^0.1.1",
+    "node-grovepi": "./GrovePi/Software/NodeJS/libs",
+    "serialport": "^3.1.2",
+    "stk500": "^1.0.3"
+  }
+}
