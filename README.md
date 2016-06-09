@@ -15,6 +15,7 @@ Basic Instructions:
 - Install the GrovePi+ software per the instructions on the [GrovePi web site](http://www.dexterindustries.com/GrovePi/get-started-with-the-grovepi/)
 - Connect RX and TX to the target board.  Observe voltage differences, i.e. 3v3 vs 5v0.
 - Connect the D2 GPIO from the GrovePi+ to the reset line of the target micro.
+- Connect appropriate supply voltages to the target board.
 - Clone this repo
 
 Run the program:
