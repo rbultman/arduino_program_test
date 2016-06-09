@@ -47,7 +47,7 @@ function resetControlBoardAsync(resetPin, done) {
       function(callback) {
         resetPin.on();
         setTimeout(function() {
-          callback("Fake error");
+          callback();
         }, resetPostTime);
       }
     ], 
